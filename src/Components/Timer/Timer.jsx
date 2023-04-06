@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Wrapper } from "../../Common/Styled";
 import { Container } from "react-bootstrap";
 import { Spacer } from "../../Common/Spacer";
-import { H1 } from "../../Common/Typography";
+import { H1, P } from "../../Common/Typography";
 import { calculateTimeLeft } from "../../utils/timeUtils";
 import "./style.scss";
 const Timer = () => {
@@ -15,8 +15,13 @@ const Timer = () => {
     <>
       <Container>
         <Spacer height="70px" />
+        <Wrapper>
+          <P color="black" fontSize="26px" weight="600">
+            Free NFT collection launching soon:
+          </P>
+          <Spacer height="10px" />
+        </Wrapper>
         <Wrapper className="d-flex flex-row align-items-center justify-content-center mt-5 mb-5">
-          <H1></H1>
           <Wrapper>
             <div className="counter">
               <Wrapper className="counter-item">

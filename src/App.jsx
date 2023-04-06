@@ -3,6 +3,7 @@ import NavbarComp from "./Components/Navbar";
 import Section from "./Components/Section";
 import Timer from "./Components/Timer/Timer";
 import Section1Img from "./assets/section1.svg";
+import Form from "./Components/Form";
 const data = [
   {
     title: "Secure, Anonymous and Encrypted on-chain chat network",
@@ -36,6 +37,7 @@ const App = () => {
         title={data[1].title}
         desc={data[1].desc}
       />
+      <Form />
     </>
   );
 };

@@ -58,8 +58,9 @@ const Section = (props) => {
                 {props.section !== "2" ? (
                   <>
                     <Button
-                      width="150px"
-                      className="d-flex flex-row align-items-center justify-content-center"
+                      width="auto"
+                      style={{ whiteSpace: "no-wrap" }}
+                      className="d-flex flex-row align-items-center justify-content-center ps-3 pe-3"
                       bg="#7A88FF"
                     >
                       Learn More
@@ -68,8 +69,9 @@ const Section = (props) => {
                 ) : null}
                 {props.section === "1" ? (
                   <Button
-                    width="180px"
-                    className="d-flex flex-row align-items-center justify-content-center ms-3"
+                    width="auto"
+                    style={{ whiteSpace: "no-wrap" }}
+                    className="d-flex flex-row align-items-center justify-content-center ms-3  ps-3 pe-3"
                     bg="#433582"
                   >
                     Download App

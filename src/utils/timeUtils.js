@@ -1,10 +1,9 @@
 export const calculateTimeLeft = () => {
-  let year = new Date().getFullYear();
-  let month = new Date().getMonth() + 1;
-  let day = new Date().getDate() + 2;
+  // let year = new Date().getFullYear();
+  // let month = new Date().getMonth() + 1;
+  // let day = new Date().getDate() + 8;
 
-  const difference = +new Date(`${year}-${month}-${day}`) - +new Date();
-
+  const difference = +new Date(`${2023}-${4}-${14}`) - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
