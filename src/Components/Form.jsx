@@ -28,6 +28,9 @@ const Form = () => {
             <Wrapper
               className="d-flex flex-column align-items-center justify-content-center"
               style={{ cursor: "pointer" }}
+              onClick={() => {
+                window.open("https://twitter.com/", "_blank");
+              }}
             >
               <TwitterIcon style={{ fontSize: "40px" }} />
               <p>Twitter</p>
@@ -35,12 +38,15 @@ const Form = () => {
             <Wrapper
               className="d-flex flex-column align-items-center justify-content-center"
               style={{ cursor: "pointer" }}
+              onClick={() => {
+                window.open("https://discord.com/", "_blank");
+              }}
             >
               <img src="/discord.svg" alt="Discord" width="40px" />
               <p>Discord</p>
             </Wrapper>
           </Wrapper>
-          <Input
+          {/* <Input
             className="form-control mt-1"
             type="text"
             border="1px solid gray"
@@ -52,8 +58,8 @@ const Form = () => {
             placeholder="Your Message"
             row={7}
             column={100}
-          />
-          <Spacer height="30px" />
+          /> */}
+          {/* <Spacer height="30px" />
           <Wrapper className="d-flex flex-row align-items-center justify-content-end text-start">
             <Button
               style={{ cursor: "pointer" }}
@@ -62,7 +68,7 @@ const Form = () => {
             >
               Message
             </Button>
-          </Wrapper>
+          </Wrapper> */}
         </Wrapper>
       </Wrapper>
     </>

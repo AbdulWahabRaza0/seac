@@ -1,5 +1,6 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`
+  max-width: ${(props) => (props.maxWidth ? props.maxWidth : "")};
   width: ${(props) => (props.width ? props.width : "")};
   height: ${(props) => (props.height ? props.height : "")};
   border: ${(props) => (props.border ? props.border : "")};

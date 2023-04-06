@@ -15,9 +15,12 @@ const Timer = () => {
     <>
       <Container>
         <Spacer height="70px" />
-        <Wrapper>
-          <P color="black" fontSize="26px" weight="600">
-            Free NFT collection launching soon:
+        <Wrapper className="d-flex flex-column align-items-center justify-content-center">
+          <H1 weight="500" color="black" className="text-center">
+            Launching soon
+          </H1>
+          <P color="gray" fontSize="14px" className="mt-2">
+            Free NFT collection launching soon : 14 april timer
           </P>
           <Spacer height="10px" />
         </Wrapper>

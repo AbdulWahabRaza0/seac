@@ -4,6 +4,8 @@ import Section from "./Components/Section";
 import Timer from "./Components/Timer/Timer";
 import Section1Img from "./assets/section1.svg";
 import Form from "./Components/Form";
+import { Spacer } from "./Common/Spacer";
+import Footer from "./Components/Footer";
 const data = [
   {
     title: "Secure, Anonymous and Encrypted on-chain chat network",
@@ -38,6 +40,8 @@ const App = () => {
         desc={data[1].desc}
       />
       <Form />
+      <Spacer height="70px" />
+      <Footer />
     </>
   );
 };
