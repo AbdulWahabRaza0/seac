@@ -20,7 +20,7 @@ const Timer = () => {
             Launching soon
           </H1>
           <P color="gray" fontSize="14px" className="mt-2">
-            Free NFT collection launching soon : 14 april timer
+            Free NFT Collection launching on 14 April
           </P>
           <Spacer height="10px" />
         </Wrapper>

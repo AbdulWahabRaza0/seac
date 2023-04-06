@@ -11,7 +11,7 @@ const Footer = () => {
         bg="black"
       >
         <P color="white" className="mb-0">
-          © Copyright 2023 – Librayre
+          © Copyright 2023 – seac
         </P>
       </Wrapper>
     </>
